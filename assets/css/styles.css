@@ -25,7 +25,9 @@ body{
 }
 
 .header__link:hover{
-    opacity: .6;
+    opacity: .7;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 .header__link:focus{
@@ -70,6 +72,11 @@ body{
     font-size: 52px;
     color: var(--cor-destaque);
     margin: 16px 0;
+}
+
+.perfil__nome:hover{
+    color: purple;
+    transition: .4s ease;
 }
 
 .perfil__descricao{
